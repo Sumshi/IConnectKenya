@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IConnectKenya website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,400;0,900;1,900&family=Saira+Condensed:wght@900&family=Tilt+Prism&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>-->
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Add to cart</a></li>
+            </ul>
+        </nav>
+        <img src="images/cart.png" width="30px" height="30px" class="cart">
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Welcome to IConnectKenya</h1>
+            <!-- <p>
+                At IConnectKenya, we're more than just an e-commerce platform - we're your gateway to premium technology at affordable prices.
+                <br>Our mission is simple: to make high-quality refurbished iPhones accessible to everyone in Kenya.
+            </p> -->
+            <a href="products.html" class="btn">Explore Now &#8594;</a><!--from html icon code in google-->
+        </div>
+        <div class="col-2">
+            <!-- <img src="images/image1.jpg"> -->
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--featured categories-->
+    <div class="categories">
+        <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/image1.jpg">
+
+            </div>
+            <div class="col-3">
+                <img src="images/image2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="images/image3.jpg">
+            </div>
+        </div>
+    </div>
+    </div>
+<!--featured products-->
+<div class="small-container">
+    <h2 class="title">Featured Iphones</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/iphone 14.avif">
+            <h4>iPhone 14 128GB</h4>
+            <div class="ratings">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>$499.00</p>
+        </div>
+        <div class="col-4">
+           <img src="images/14pro.avif">
+           <h4>iPhone 14 Pro 128GB</h4>
+            <div class="ratings">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            <p>$699.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/iphone13.avif">
+            <h4>iPhone 13 128GB</h4>
+            <div class="ratings">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                </div>
+            <p>$392.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/iphone13pro.avif">
+            <h4>iPhone 13 Pro 128GB</h4>
+            <div class="ratings">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                </div>
+            <p>$591.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Iphones</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/15.avif">
+            <h4>iPhone 15 128GB</h4>
+          <div class="ratings">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star"></i>
+            </div>
+            <p>$640.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/15pro.avif">
+            <h4>iPhone 15 Pro 128GB</h4>
+            <div class="ratings">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                </div>
+            <p>$925.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/15plus.avif">
+            <h4>iPhone 15 Plus 128GB</h4>
+            <div class="ratings">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                </div>
+            <p>$810.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/15max.avif">
+            <h4>iPhone 15 Pro Max 256GB</h4>
+            <div class="ratings">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star"></i>
+                </div>
+            <p>$1050.00</p>
+        </div>
+    </div>
+     <div class="row">
+    </div>
+</div>
+
+<!--Testimonials-->
+<h2 class="title">Testimonials</h2>
+<div class="testimonials">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>"I was a bit skeptical about buying a refurbished iPhone, but IConnectKenya changed my mind completely! The iPhone 14 I purchased exceeded my expectations - it looked like brand new. Plus, the customer support team was super helpful throughout the process. I'll definitely be coming back for my next upgrade!"</p>
+                    <div class="ratings">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Emma T. - Nairobi</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>"I've been searching for an affordable iPhone for months, and I'm so glad I stumbled upon IConnectKenya. The iPhone 13 I bought not only fits my budget perfectly but also works flawlessly. The local pick-up option made it even more convenient for me, delivery was also free. Highly recommended!"</p>
+                        <div class="ratings">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <img src="images/user-2.png">
+                        <h3>Jake M. - Mombasa</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>"IConnectKenya truly delivers on its promise of quality and affordability. I was amazed by the condition of the iPhone 12 I received - it looked as good as new! The warranty provided me with extra peace of mind, and I appreciate the company's dedication to customer satisfaction. I'll be spreading the word about their service!"</p>
+                            <div class="ratings">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <img src="images/user-3.png">
+                            <h3>Emily R. - Kisumu</h3>
+                </div>
+            </div>
+        </div>
+    <div>
+        <!--brands-->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our app</h3>
+                        <p>The app is available for both Android and ios devices</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>
+                            Our mission at IConnectKenya is to extend the joys and advantages of technology to as many people as possible.
+                         </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright">@Copyright 2024 - IConnectKenya</p>
+            </div>
+        </div>
+
+        <!--js for toggle menu-->
+
+        <script>
+            var menuitems = document.getElementById("menuitems");
+            menuitems.style.maxHeight = "0px";
+            function menutoggle(){
+                if(menuitems.style.maxHeight == "0px")
+                {
+                    menuitems.style.maxHeight = "200px"
+                }
+                else
+                {
+                    menuitems.style.maxHeight == "0px"
+                }
+            }
+        </script>
+</body>
+</html>
