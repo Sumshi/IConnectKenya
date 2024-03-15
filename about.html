@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IConnectKenya website</title>
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,10 +28,8 @@
                 <li><a href="products.html">Products</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html">Add to cart</a></li>
             </ul>
         </nav>
-        <img src="images/cart.png" width="30px" height="30px" class="cart">
         <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
 
     </div>
@@ -71,5 +69,29 @@
       options, swift delivery, and responsive customer support, we're here to
       make your shopping experience seamless and enjoyable..
     </p>
+
+    
+
+    <script>
+    var menuitems = document.getElementById("menuitems");
+    menuitems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (menuitems.style.maxHeight == "0px") {
+            menuitems.style.maxHeight = "200px"; // Adjust this value to the height you want the menu to expand to
+        } else {
+            menuitems.style.maxHeight = "0px";
+        }
+    }
+
+    // Close menu when clicking outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.menu-icon')) {
+            if (menuitems.style.maxHeight == "200px") {
+                menuitems.style.maxHeight = "0px";
+            }
+        }
+    }
+</script>
   </body>
 </html>

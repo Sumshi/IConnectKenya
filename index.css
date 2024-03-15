@@ -79,6 +79,7 @@ p{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.7;
 }
 /* .row .col-2 p {
     color: whitesmoke;
